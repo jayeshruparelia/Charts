@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PopulationDBModelStoreContainer" CdmEntityContainer="PopulationDBEntities">
+    <EntitySetMapping Name="CountryPopulations">
+      <EntityTypeMapping TypeName="PopulationDBModel.CountryPopulation">
+        <MappingFragment StoreEntitySet="Population">
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="Population" ColumnName="Population" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

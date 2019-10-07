@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "Charts using JSON & AJAX";
+}
+
+<div id="chartContainer" style="height: 400px; width: 100%;"></div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $.get("/data/dataPoints?count=10&type=json", function (data) {
+            var chart = new CanvasJS.Chart("chartContainer", {
+                animationEnabled: true,
+                theme: "light2",//light1
+                title: {
+                    text: "CanvasJS Charts in ASP.Net MVC using JSON & AJAX"
+                },
+                data: [
+                {
+                    // Change type to "bar", "splineArea", "area", "spline", "pie",etc.
+                    type: "line",
+                    dataPoints: data
+                    }
+                ]
+            });
+
+            chart.render();
+        });
+
+    });
+</script>

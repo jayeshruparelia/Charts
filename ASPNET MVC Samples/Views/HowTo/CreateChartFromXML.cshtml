@@ -1,0 +1,37 @@
+﻿@{
+    ViewBag.Title = "Charts using XML & AJAX";
+}
+
+<div id="chartContainer" style="height: 400px; width: 100%;"></div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        var dataPoints = [];
+
+        $.get("/data/datapoints?count=10&type=xml", function (data) {
+            $(data).find("point").each(function () {
+                var $dataPoint = $(this);
+                var x = $dataPoint.find("x").text();
+                var y = $dataPoint.find("y").text();
+                dataPoints.push({ x: parseFloat(x), y: parseFloat(y) });
+            });
+
+            var chart = new CanvasJS.Chart("chartContainer", {
+                animationEnabled: true,
+                theme: "light2",//light1
+                title: {
+                    text: "CanvasJS Charts in ASP.Net MVC using XML & AJAX",
+                },
+                data: [{
+                    type: "spline",
+                    dataPoints: dataPoints,
+                }]
+            });
+
+            chart.render();
+
+        });
+
+    });
+</script>

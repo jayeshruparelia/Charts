@@ -1,0 +1,91 @@
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\roslyn\csc.exe
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\roslyn\vbc.exe
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\ASPNET MVC Samples.dll.config
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\ASPNET MVC Samples.dll
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\ASPNET MVC Samples.pdb
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\Antlr3.Runtime.dll
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\EntityFramework.dll
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\EntityFramework.SqlServer.dll
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\Newtonsoft.Json.dll
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\System.Web.Helpers.dll
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\System.Web.Mvc.dll
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\System.Web.Optimization.dll
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\System.Web.Razor.dll
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\System.Web.Webpages.dll
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\System.Web.Webpages.Razor.dll
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\WebGrease.dll
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\Antlr3.Runtime.pdb
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\EntityFramework.xml
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\EntityFramework.SqlServer.xml
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\Newtonsoft.Json.xml
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\System.Web.Optimization.xml
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\System.Web.Razor.xml
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\System.Web.Webpages.xml
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\System.Web.Webpages.Razor.xml
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\System.Web.Helpers.xml
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\System.Web.Mvc.xml
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\obj\Debug\ASPNET MVC Samples.csprojResolveAssemblyReference.cache
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\obj\Debug\ASPNET MVC Samples.csproj.CoreCompileInputs.cache
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\obj\Debug\ASPNET MVC Samples.dll
+C:\Users\Sanjoy\Downloads\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\obj\Debug\ASPNET MVC Samples.pdb
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\roslyn\csc.exe
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\roslyn\Microsoft.CodeAnalysis.dll
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\roslyn\Microsoft.CSharp.Core.targets
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\roslyn\Microsoft.VisualBasic.Core.targets
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\roslyn\System.Collections.Immutable.dll
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\roslyn\System.Reflection.Metadata.dll
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\roslyn\vbc.exe
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\roslyn\VBCSCompiler.exe
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\roslyn\VBCSCompiler.exe.config
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\ASPNET MVC Samples.dll.config
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\ASPNET MVC Samples.dll
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\ASPNET MVC Samples.pdb
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\Antlr3.Runtime.dll
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\EntityFramework.dll
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\EntityFramework.SqlServer.dll
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\Microsoft.Web.Infrastructure.dll
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\Newtonsoft.Json.dll
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\System.Web.Helpers.dll
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\System.Web.Mvc.dll
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\System.Web.Optimization.dll
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\System.Web.Razor.dll
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\System.Web.Webpages.Deployment.dll
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\System.Web.Webpages.dll
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\System.Web.Webpages.Razor.dll
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\WebGrease.dll
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\Antlr3.Runtime.pdb
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\EntityFramework.xml
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\EntityFramework.SqlServer.xml
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\Newtonsoft.Json.xml
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\System.Web.Optimization.xml
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\System.Web.Razor.xml
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\System.Web.Webpages.xml
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\System.Web.Webpages.Deployment.xml
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\System.Web.Webpages.Razor.xml
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\System.Web.Helpers.xml
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\bin\System.Web.Mvc.xml
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\obj\Debug\ASPNET MVC Samples.csprojAssemblyReference.cache
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\obj\Debug\ASPNET MVC Samples.csproj.CoreCompileInputs.cache
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\obj\Debug\ASPNET MVC Samples.csproj.CopyComplete
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\obj\Debug\ASPNET MVC Samples.dll
+I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\obj\Debug\ASPNET MVC Samples.pdb

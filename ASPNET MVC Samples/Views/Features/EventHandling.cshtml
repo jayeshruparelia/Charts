@@ -1,0 +1,58 @@
+﻿
+@{
+	ViewBag.Title = "Events Handling";
+}
+
+<div id="chartContainer"></div>
+
+<script type="text/javascript">
+
+	function onClick(e) {
+		alert("Type: " + e.dataSeries.type + ", dataPoint { x:" + e.dataPoint.x + ", y: " + e.dataPoint.y + " }");
+	};
+
+	$(function () {
+
+		var chart = new CanvasJS.Chart("chartContainer",
+		{
+    		title: {
+    			text: "Try Clicking Any DataPoint"
+    		},
+    		data: [
+			{
+				click: onClick,
+				cursor: "pointer",
+        		type: "column",
+        		dataPoints: [
+					{ y: 71 },
+					{ y: 55 },
+					{ y: 50 },
+					{ y: 65 },
+					{ y: 95 },
+					{ y: 68 },
+					{ y: 28 },
+					{ y: 34 },
+					{ y: 14 }
+        		]
+			},
+			{
+				click: onClick,
+				cursor: "pointer",
+				type: "line",
+        		dataPoints: [
+					{ y: 55 },
+					{ y: 50 },
+					{ y: 65 },
+					{ y: 95 },
+					{ y: 68 },
+					{ y: 28 },
+					{ y: 34 },
+					{ y: 14 },
+					{ y: 71 }
+        		]
+			}]
+		});
+
+		chart.render();
+	});
+</script>

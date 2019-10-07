@@ -1,0 +1,31 @@
+﻿@model IEnumerable<ASPNET_MVC_Samples.Models.Point>
+
+
+<div id="chartContainer"></div>
+
+<script type="text/javascript">
+    var result = @Html.Raw(ViewBag.DataPoints);
+    var dataPoints =[];
+    for(var i = 0; i < result.length; i++){
+        dataPoints.push({label:result[i].x, y:result[i].y});
+    }
+
+    $(function () {
+        var chart = new CanvasJS.Chart("chartContainer", {
+            theme: "light2",
+            zoomEnabled: true,
+            animationEnabled: true,
+            title: {
+                text: "Line Chart with Data-Points from DataBase"
+            },
+            data: [
+            {
+                type: "line",
+
+                dataPoints: dataPoints,
+            }
+            ]
+        });
+        chart.render();
+    });
+</script>

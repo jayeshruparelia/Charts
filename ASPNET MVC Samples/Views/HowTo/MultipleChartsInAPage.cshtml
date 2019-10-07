@@ -1,0 +1,164 @@
+﻿
+@{
+    ViewBag.Title = "Multiple Charts in a Page";
+}
+
+<div id="chartContainer1" style="width: 49%; height: 300px;display: inline-block;"></div>
+<div id="chartContainer2" style="width: 49%; height: 300px;display: inline-block;"></div>
+<br /><br />
+<div id="chartContainer3" style="width: 49%; height: 300px;display: inline-block;"></div>
+<div id="chartContainer4" style="width: 49%; height: 300px;display: inline-block;"></div>
+
+
+<script type="text/javascript">
+
+    $(function () {
+        var chart1 = new CanvasJS.Chart("chartContainer1",{
+            title:{
+                text: "Elevation and Atmospheric Pressure"
+            },
+            axisY :{
+                title: "Atmospheric Pressure",
+                titleFontSize: 18,
+                suffix: " kPa"
+            },
+            animationEnabled: true,
+            axisX :{
+                title: "Elevations Above Sea Level",
+                suffix: " m"
+            },
+            data: [
+            {
+                markerSize: 0,
+                toolTipContent: "<span style='\"color: {color};'\"'><strong>Elevation</strong></span> {x} m<br/><span style='\"'color: {color};'\"'><strong>Pressure</strong></span> {y} kPa",
+        type: "spline",
+        showInLegend: true,
+        legendText: "Computed for 15 deg. C at Sea Level",
+        dataPoints: [
+	            {x: 0 , y: 101.3},
+	            {x: 152 , y: 99.49},
+	            {x: 457 , y: 95.91},
+	            {x: 762 , y: 92.46},
+	            {x: 914 , y: 90.81},
+	            {x: 1067 , y: 89.15},
+	            {x: 2743 , y: 72.40},
+	            {x: 3048 , y: 69.64},
+	            {x: 4572 , y: 57.16},
+	            {x: 6096 , y: 46.61},
+	            {x: 7620 , y: 37.65},
+	            {x: 9144 , y: 30.13},
+	            {x: 10668 , y: 23.93},
+	            {x: 12192 , y: 18.82},
+	            {x: 18288 , y: 7.24},
+	            {x: 21336 , y: 4.49},
+	            {x: 24384 , y: 2.8},
+	            {x: 27432, y: 1.76}
+        ]
+    }
+
+    ]
+    });
+
+    chart1.render();
+
+    var chart2 = new CanvasJS.Chart("chartContainer2", {
+        title: {
+            text: "Desktop Search Engine Market Share, Jul-2016"
+        },
+        animationEnabled: true,
+        legend: {
+            verticalAlign: "center",
+            horizontalAlign: "left",
+            fontSize: 18,
+            fontFamily: "Helvetica"
+        },
+        theme: "light2",
+        data: [
+        {
+            type: "pie",
+            indexLabelFontFamily: "Garamond",
+            indexLabelFontSize: 20,
+            indexLabel: "{label} {y}%",
+            startAngle: -20,
+            showInLegend: true,
+            toolTipContent: "{legendText} {y}%",
+            dataPoints: [
+                    { y: 72.48, legendText: "Google", label: "Google" },
+                    { y: 10.39, legendText: "Bing", label: "Bing" },
+                    { y: 7.78, legendText: "Yahoo!", label: "Yahoo!" },
+                    { y: 7.14, legendText: "Baidu", label: "Baidu" },
+                    { y: 0.22, legendText: "Ask", label: "Ask" },
+                    { y: 0.15, legendText: "AOL", label: "AOL" },
+                    { y: 1.84, legendText: "Others", label: "Others" }
+            ]
+        }
+        ]
+    });
+    chart2.render();
+
+    var chart3 = new CanvasJS.Chart("chartContainer3",
+    {
+        theme: "light2",
+        animationEnabled: true,
+        title: {
+            text: "Top Oil Reserves"
+        },
+        axisY: {
+            title: "Reserves(MMbbl)"
+        },
+        data: [{
+            type: "column",
+            showInLegend: true,
+            legendMarkerColor: "grey",
+            legendText: "MMbbl = one million barrels",
+            dataPoints: [
+                    {y: 297571, label: "Venezuela"},
+                    {y: 267017,  label: "Saudi" },
+                    {y: 175200,  label: "Canada"},
+                    {y: 154580,  label: "Iran"},
+                    {y: 116000,  label: "Russia"},
+                    {y: 97800, label: "UAE"},
+                    {y: 20682,  label: "US"},
+                    {y: 20350,  label: "China"}
+            ]
+        }]
+    });
+    chart3.render();
+
+    var chart4 = new CanvasJS.Chart("chartContainer4",
+	{
+	    title:{
+	        text: "Music Album Sales by Year"
+	    },
+	    theme: "light2",
+	    animationEnabled: true,
+	    axisY: {
+	        title: "Units Sold",
+	        valueFormatString: "#0,,.",
+	        suffix: " m"
+	    },
+	    data: [
+        {
+            toolTipContent: "{y} units",
+            type: "splineArea",
+            markerSize: 5,
+            dataPoints: [
+                        {x: new Date(1998,0), y: 1872000},
+                        {x: new Date(1999,0), y: 2140000},
+                        {x: new Date(2000,0), y: 7289000},
+                        {x: new Date(2001,0), y: 4830000},
+                        {x: new Date(2002,0), y: 2009000},
+                        {x: new Date(2003,0), y: 2840000},
+                        {x: new Date(2004,0), y: 2396000},
+                        {x: new Date(2005,0), y: 1613000},
+                        {x: new Date(2006,0), y: 2821000},
+                        {x: new Date(2007,0), y: 2000000},
+                        {x: new Date(2008,0), y: 1397000}
+            ]
+        }
+	    ]
+	});
+    chart4.render();
+
+    });
+</script>

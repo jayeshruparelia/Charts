@@ -1,0 +1,15 @@
+Instructions on using the ASP.Net MVC Chart Samples.
+
+1. You'll require Microsoft Visual Studio.
+2. You'll require SQL Express, to populate dataPoints from Database
+
+
+
+Troubleshooting:
+
+When you open the solution, if you encounter the following error message, 
+
+"We were unable to automatically populate your Visual Studio Team Services accounts. The following error was encountered: TF400813: Resource not available for anonymous access. Client authentication required." 
+
+
+Please Sign-out and Sign in your Visual Studio account. For more info refer this link https://support.microsoft.com/en-in/kb/2892152.
