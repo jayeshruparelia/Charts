@@ -94,11 +94,11 @@ namespace ASPNET_MVC_Samples.Controllers
 
         public ActionResult StackedColumn()
         {
-			//Below code can be used to include dynamic data in Chart. Check view page and uncomment the line "dataPoints: @Html.Raw(ViewBag.DataPoints)"
-			//ViewBag.DataPoints1 = JsonConvert.SerializeObject(DataService.GetRandomDataForCategoryAxis(5), _jsonSetting);
-			//ViewBag.DataPoints2 = JsonConvert.SerializeObject(DataService.GetRandomDataForCategoryAxis(5), _jsonSetting);
+            //Below code can be used to include dynamic data in Chart. Check view page and uncomment the line "dataPoints: @Html.Raw(ViewBag.DataPoints)"
+            ViewBag.DataPoints1 = JsonConvert.SerializeObject(DataService.GetRandomDataForCategoryAxis(5), _jsonSetting);
+            ViewBag.DataPoints2 = JsonConvert.SerializeObject(DataService.GetRandomDataForCategoryAxis(5), _jsonSetting);
 
-			return View();
+            return View();
         }
 
         public ActionResult StackedBar()

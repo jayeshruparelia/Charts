@@ -89,3 +89,48 @@ I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvas
 I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\obj\Debug\ASPNET MVC Samples.csproj.CopyComplete
 I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\obj\Debug\ASPNET MVC Samples.dll
 I:\Azure\Hackathon\Working\asp-net-mvc-canvasjs-chart-samples\asp-net-mvc-canvasjs-chart-samples\ASPNET CanvasJS Chart Samples\ASPNET MVC Samples\obj\Debug\ASPNET MVC Samples.pdb
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\roslyn\csc.exe
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\roslyn\System.Collections.Immutable.dll
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\roslyn\System.Reflection.Metadata.dll
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\roslyn\vbc.exe
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\roslyn\VBCSCompiler.exe
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\roslyn\VBCSCompiler.exe.config
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\ASPNET MVC Samples.dll.config
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\ASPNET MVC Samples.dll
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\ASPNET MVC Samples.pdb
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\Antlr3.Runtime.dll
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\EntityFramework.dll
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\EntityFramework.SqlServer.dll
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\Microsoft.Web.Infrastructure.dll
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\Newtonsoft.Json.dll
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\System.Web.Helpers.dll
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\System.Web.Mvc.dll
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\System.Web.Optimization.dll
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\System.Web.Razor.dll
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\System.Web.Webpages.Deployment.dll
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\System.Web.Webpages.dll
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\System.Web.Webpages.Razor.dll
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\WebGrease.dll
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\Antlr3.Runtime.pdb
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\EntityFramework.xml
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\EntityFramework.SqlServer.xml
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\Newtonsoft.Json.xml
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\System.Web.Optimization.xml
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\System.Web.Razor.xml
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\System.Web.Webpages.xml
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\System.Web.Webpages.Deployment.xml
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\System.Web.Webpages.Razor.xml
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\System.Web.Helpers.xml
+D:\Harshal\Hasckathon\ASPNET MVC Samples\bin\System.Web.Mvc.xml
+D:\Harshal\Hasckathon\ASPNET MVC Samples\obj\Debug\ASPNET MVC Samples.csprojResolveAssemblyReference.cache
+D:\Harshal\Hasckathon\ASPNET MVC Samples\obj\Debug\ASPNET MVC Samples.csproj.CoreCompileInputs.cache
+D:\Harshal\Hasckathon\ASPNET MVC Samples\obj\Debug\ASPNET MVC Samples.dll
+D:\Harshal\Hasckathon\ASPNET MVC Samples\obj\Debug\ASPNET MVC Samples.pdb
