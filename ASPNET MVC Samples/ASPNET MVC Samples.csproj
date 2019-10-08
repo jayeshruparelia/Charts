@@ -281,6 +281,9 @@
     <Content Include="Views\HowTo\CreateChartFromCSV.cshtml" />
     <Content Include="Views\HowTo\DataFromDataBase.cshtml" />
     <Content Include="Views\HowTo\Error.cshtml" />
+    <Content Include="Views\ChartTypes\StackedDailyChart.cshtml" />
+    <Content Include="Views\ChartTypes\MonthlyStackedChart.cshtml" />
+    <Content Include="Views\ChartTypes\MonthlyStackedChart_Percentage.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
