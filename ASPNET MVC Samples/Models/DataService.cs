@@ -1,8 +1,13 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data.SqlClient;
 using System.IO;
+using System.Net;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Threading.Tasks;
 
 namespace ASPNET_MVC_Samples.Models
 {
@@ -79,41 +84,70 @@ namespace ASPNET_MVC_Samples.Models
 
         public static ChartData GetChartData(string name, int locationId, DateTime fromDate, DateTime tooDate, ChartType chartType)
         {
-            string value = File.ReadAllText(@"D:\Harshal\Hasckathon\ASPNET MVC Samples\App_Data\Food_Utilization_All.json");
-            //var val = string.Empty;
-            //
-            //var constr = "Data Source = dbgreen.database.windows.net; Initial Catalog = hackathon2019; Persist Security Info = True; User ID = gradmin; Password = Password@1";"
-            //using (SqlConnection con = new SqlConnection(constr))
-            //{
-            //    SqlCommand command = new SqlCommand("select top 10 asof_date as x, wasted as y from item_utilisation for json auto", con);
-            //    command.Connection.Open();
-            //    val = command.ExecuteNonQuery();
-            //}
-
-            JsonSerializerSettings _jsonSetting = new JsonSerializerSettings() { NullValueHandling = NullValueHandling.Ignore };
-            var arr = JsonConvert.DeserializeObject<FoodItem[]>(value, _jsonSetting);
+            string URL = "https://dbgreen.azurewebsites.net/api/GetGraphData";
+            string urlParameters = string.Empty;
 
             switch (chartType)
             {
                 case ChartType.Daily:
+                    urlParameters = "?code=Qi8NhmUpdFqwqmLUmjyQMCEw9%2FTEm5Xj6zq8YIsoa0oLlC7ENBs6tQ%3D%3D&name="+name+"&locationId=3&fromDate=2019-08-01&toDate=2019-08-30";                    
+                    break;
                 case ChartType.Monthly:
-                    _newDataPoints = GetChartData(arr);
+                    urlParameters = "?code=Qi8NhmUpdFqwqmLUmjyQMCEw9%2FTEm5Xj6zq8YIsoa0oLlC7ENBs6tQ%3D%3D&name="+name+"&locationId=3&fromDate=2018-08-01&toDate=2019-08-01";
                     break;
-                case ChartType.Comparision:
-                    _newDataPoints = GetComparisionDataPoints(arr);
+                case ChartType.ComparisionByCity:
+                    urlParameters = "?code=Qi8NhmUpdFqwqmLUmjyQMCEw9%2FTEm5Xj6zq8YIsoa0oLlC7ENBs6tQ%3D%3D&name=" + name + "&locationId=3";
                     break;
-                default:
+                case ChartType.ComparisionByCountry:
+                    urlParameters = "?code=Qi8NhmUpdFqwqmLUmjyQMCEw9%2FTEm5Xj6zq8YIsoa0oLlC7ENBs6tQ%3D%3D&name=" + name + "&locationId=3";
                     break;
             }
 
-            //for (int i = 0; i < count; i++)
-            //{
-            //    y = y + (random.Next(0, 20) - 10);
-
-            //    _dataPoints.Add(new DataPoint(i, y));
-            //}
-
+            _newDataPoints = GetChartDataFromService(URL, urlParameters);
             return _newDataPoints;
+        }
+
+        private static ChartData GetChartDataFromService(string URL, string urlParameters)
+        {
+            HttpClient client = new HttpClient();
+            JsonSerializerSettings _jsonSetting = new JsonSerializerSettings() { NullValueHandling = NullValueHandling.Ignore };
+
+            try
+            {
+                client.BaseAddress = new Uri(URL);
+
+                // Add an Accept header for JSON format.
+                client.DefaultRequestHeaders.Accept.Add(
+                new MediaTypeWithQualityHeaderValue("application/json"));
+                ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+
+                // List data response.
+                HttpResponseMessage response = client.GetAsync(urlParameters).Result;  // Blocking call! Program will wait here until a response is received or a timeout occurs.
+                if (response.IsSuccessStatusCode)
+                {
+                    // Parse the response body.
+                    var dataObjects = response.Content.ReadAsStringAsync().Result;  //Make sure to add a reference to System.Net.Http.Formatting.dll
+                    var val = JsonConvert.DeserializeObject<FoodItem[]>(dataObjects, _jsonSetting);
+
+                    _newDataPoints = GetChartData(val);
+                    return _newDataPoints;
+                }
+                else
+                {
+                    Console.WriteLine("{0} ({1})", (int)response.StatusCode, response.ReasonPhrase);
+                }
+
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+            finally
+            {
+                //Dispose once all HttpClient calls are complete. This is not necessary if the containing object will be disposed of; for example in this case the HttpClient instance will be disposed automatically when the application terminates so the following call is superfluous.
+                client.Dispose();
+            }
+            return null;
         }
 
         private static ChartData GetComparisionDataPoints(FoodItem[] arr)
@@ -122,7 +156,7 @@ namespace ASPNET_MVC_Samples.Models
         }
 
         //private static ChartData GetChartData(FoodData arr)
-        private static ChartData GetChartData(FoodItem[] arr)
+        private static ChartData GetChartData(IEnumerable<FoodItem> arr)
         {
             ChartDataSeries Wasted = new ChartDataSeries(WasteType.Wasted);
             ChartDataSeries Unutilized = new ChartDataSeries(WasteType.Untilized);
@@ -149,6 +183,6 @@ namespace ASPNET_MVC_Samples.Models
             return new ChartData(Wasted, Unutilized, null);
         }
 
-        
+
     }
 }

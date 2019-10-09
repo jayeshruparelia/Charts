@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title>ASP.NET MVC Chart Samples using CanvasJS</title>
+    <title>DB CO2 Emission Board</title>
 
     <!-- stylesheets -->
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -78,7 +78,7 @@
                 </div>
                 <div class="brand">
                     <a href="/">
-                        CanvasJS Examples <span class="hidden-xs text-muted">ASP.NET MVC</span>
+                        CO2 Less Cloud... <span class="hidden-xs text-muted">CO2 emission Board</span>
                     </a>
                 </div>
 
@@ -92,7 +92,7 @@
             <li>
                 <a href="/">
                     <i class="fa fa-home" aria-hidden="true"></i>
-                    <span>HOME</span>
+                    <span>DB</span>
                 </a>
             </li>
             <li role="separator" class="divider"></li>
@@ -109,30 +109,7 @@
                 <ul id="charttypes" class="sub-menu collapse @if(Request.Url.AbsoluteUri.ToString().Contains("charttypes/")) { @Html.Raw("in") }">
                     <li><a href="/charttypes/Daily/">Daily CO2 Emission</a></li>
                     <li><a href="/charttypes/Monthly/">Monthly CO2 Emission</a></li>
-                    <li><a href="/charttypes/column/">Column Chart</a></li>
-                    <li><a href="/charttypes/line/">Line Chart</a></li>
-                    <li><a href="/charttypes/stepline/">Step Line Chart</a></li>
-                    <li><a href="/charttypes/spline/">Spline Chart</a></li>
-                    <li><a href="/charttypes/steparea/">Step Area Chart</a></li>
-                    <li><a href="/charttypes/area/">Area Chart</a></li>
-                    <li><a href="/charttypes/splinearea/">Spline Area Chart</a></li>
-                    <li><a href="/charttypes/bar/">Bar Chart</a></li>
-                    <li><a href="/charttypes/pie/">Pie Chart</a></li>
-                    <li><a href="/charttypes/doughnut/">Doughnut Chart</a></li>
-                    <li><a href="/charttypes/bubble/">Bubble Chart</a></li>
-                    <li><a href="/charttypes/scatter/">Scatter Chart</a></li>
-                    <li><a href="/charttypes/stackedcolumn/">Stacked Column Chart</a></li>
-                    <li><a href="/charttypes/stackedcolumn100/">Stacked Column 100% Chart</a></li>
-                    <li><a href="/charttypes/stackedarea/">Stacked Area Chart</a></li>
-                    <li><a href="/charttypes/stackedarea100/">Stacked Area 100% Chart</a></li>
-                    <li><a href="/charttypes/stackedbar/">Stacked Bar Chart</a></li>
-                    <li><a href="/charttypes/stackedbar100/">Stacked Bar 100% Chart</a></li>
-                    @*<li><a href="#">Range Column Chart</a></li>
-        <li><a href="#">Range Bar Chart</a></li>
-        <li><a href="#">Range Area Chart</a></li>
-        <li><a href="#">Range Spline Area Chart</a></li>
-        <li><a href="#">OHLC Chart</a></li>
-        <li><a href="#">Candlestick Chart</a></li>*@
+                    <li><a href="/charttypes/ComparisionByCity/">CO2 Emission Comparision By City</a></li>
                 </ul>
             </li>
             <!-- /chart types -->
