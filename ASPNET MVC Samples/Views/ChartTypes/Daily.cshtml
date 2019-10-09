@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "Daily Chart";
+}
+
+<div id="chartContainer"></div>
+
+<script type="text/javascript">
+
+    $(function () {
+        var chart = new CanvasJS.Chart("chartContainer", {
+            animationEnabled: true,
+            title: {
+                text: "Daily CO2 emission"
+            },
+         
+
+            data: [
+            {
+                type: "stackedColumn",
+                legendText: "Unutilized",
+                name: "Unutilized",
+                showInLegend: "true",
+                dataPoints: @Html.Raw(ViewBag.DataPoints1)
+            }, {
+                type: "stackedColumn",
+                legendText: "Wasted",
+                showInLegend: "true",
+                indexLabel: "#total kg",
+                indexLabelPlacement: "outside",
+               
+                dataPoints: @Html.Raw(ViewBag.DataPoints2)
+            }
+            ]
+        });
+        chart.render();
+    });
+</script>

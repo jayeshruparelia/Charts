@@ -178,6 +178,9 @@
     <Content Include="Models\DataBaseModel.edmx.diagram">
       <DependentUpon>DataBaseModel.edmx</DependentUpon>
     </Content>
+    <Content Include="App_Data\JsonData.json" />
+    <Content Include="App_Data\Food_Utilization_All.json" />
+    <Content Include="App_Data\unused_food_percent.json" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Models\DataBaseModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -204,6 +207,9 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\ChartTypesController.cs" />
+    <Compile Include="Models\ChartData.cs" />
+    <Compile Include="Models\ChartDatPoint.cs" />
+    <Compile Include="Models\ChartType.cs" />
     <Compile Include="Models\DataBaseModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -220,6 +226,7 @@
       <DependentUpon>DataBaseModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Controllers\DataController.cs" />
+    <Compile Include="Models\FoodData.cs" />
     <Compile Include="Models\DataService.cs" />
     <Compile Include="Controllers\FeaturesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -228,10 +235,12 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\DataPoint.cs" />
+    <Compile Include="Models\FoodItem.cs" />
     <Compile Include="Models\Location.cs" />
     <Compile Include="Models\Point.cs">
       <DependentUpon>DataBaseModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\WasteType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -281,9 +290,10 @@
     <Content Include="Views\HowTo\CreateChartFromCSV.cshtml" />
     <Content Include="Views\HowTo\DataFromDataBase.cshtml" />
     <Content Include="Views\HowTo\Error.cshtml" />
-    <Content Include="Views\ChartTypes\StackedDailyChart.cshtml" />
-    <Content Include="Views\ChartTypes\MonthlyStackedChart.cshtml" />
+    <Content Include="Views\ChartTypes\Daily.cshtml" />
+    <Content Include="Views\ChartTypes\Monthly.cshtml" />
     <Content Include="Views\ChartTypes\MonthlyStackedChart_Percentage.cshtml" />
+    <Content Include="Views\ChartTypes\ScatterChart100Year.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

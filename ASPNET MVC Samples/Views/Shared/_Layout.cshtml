@@ -107,6 +107,8 @@
 
             <li>
                 <ul id="charttypes" class="sub-menu collapse @if(Request.Url.AbsoluteUri.ToString().Contains("charttypes/")) { @Html.Raw("in") }">
+                    <li><a href="/charttypes/Daily/">Daily CO2 Emission</a></li>
+                    <li><a href="/charttypes/Monthly/">Monthly CO2 Emission</a></li>
                     <li><a href="/charttypes/column/">Column Chart</a></li>
                     <li><a href="/charttypes/line/">Line Chart</a></li>
                     <li><a href="/charttypes/stepline/">Step Line Chart</a></li>
@@ -126,11 +128,11 @@
                     <li><a href="/charttypes/stackedbar/">Stacked Bar Chart</a></li>
                     <li><a href="/charttypes/stackedbar100/">Stacked Bar 100% Chart</a></li>
                     @*<li><a href="#">Range Column Chart</a></li>
-                        <li><a href="#">Range Bar Chart</a></li>
-                        <li><a href="#">Range Area Chart</a></li>
-                        <li><a href="#">Range Spline Area Chart</a></li>
-                        <li><a href="#">OHLC Chart</a></li>
-                        <li><a href="#">Candlestick Chart</a></li>*@
+        <li><a href="#">Range Bar Chart</a></li>
+        <li><a href="#">Range Area Chart</a></li>
+        <li><a href="#">Range Spline Area Chart</a></li>
+        <li><a href="#">OHLC Chart</a></li>
+        <li><a href="#">Candlestick Chart</a></li>*@
                 </ul>
             </li>
             <!-- /chart types -->

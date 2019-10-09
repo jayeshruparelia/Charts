@@ -1,6 +1,6 @@
 ﻿
 @{
-    ViewBag.Title = "Magarpatta City Pune";
+    ViewBag.Title = "Stacked Column Chart";
 }
 
 <div id="chartContainer"></div>
@@ -11,61 +11,44 @@
         var chart = new CanvasJS.Chart("chartContainer", {
             animationEnabled: true,
             title: {
-                text: "Monthly CO2 emission (%)"
+                text: "Daily CO2 emission"
             },
             axisY: {
-                suffix: "%"
+                title: "Food Wasted (in kg)",
+                valueFormatString: "#0.",
             },
-            valueFormatString: "#0.",
-
-            dataPointWidth: 65,
+            axisX: {
+                interval: 1,
+                intervalType: "day"
+            },
 
             data: [
-                {
-                    type: "stackedColumn100",
-                    legendText: "Unutilized",
-                    indexLabel: "#percent %",
-                    indexLabelPlacement: "inside",
-                    indexLabelFontColor: "white",
-                    showInLegend: true,
+            {
+                type: "stackedColumn",
+                legendText: "Unutilized",
+                valueFormatString: "#0kg",
+                indexLabelFormatString: "#0kg",
+                name: "Unutilized",
+                showInLegend: "true",
+                dataPoints: [{ "Y": 9.0, "Label": 30 }, { "Y": 5.0, "Label": 29 }, { "Y": 29.0, "Label": 28 }, { "Y": 11.0, "Label": 27 }, { "Y": 5.0, "Label": 26 }, { "Y": 12.0, "Label": 25 }, { "Y": 23.0, "Label": 24 }, { "Y": 10.0, "Label": 23 }, { "Y": 10.0, "Label": 22 }, { "Y": 10.0, "Label": 21 }, { "Y": 10.0, "Label": 20 }]
 
-                    dataPoints: [
-                        { y: 40, x: new Date(2010, 1) },
-                        { y: 50, x: new Date(2010, 2) },
-                        { y: 60, x: new Date(2010, 3) },
-                        { y: 60, x: new Date(2010, 4) },
-                        { y: 61, x: new Date(2010, 5) },
-                        { y: 63, x: new Date(2010, 6) },
-                        { y: 65, x: new Date(2010, 7) },
-                        { y: 45, x: new Date(2010, 8) },
-                        { y: 65, x: new Date(2010, 9) },
-                        { y: 38, x: new Date(2010, 10) },
-                        { y: 42, x: new Date(2010, 11) },
-                        { y: 55, x: new Date(2010, 12) }
-                    ]
-                },
-                {
-                    type: "stackedColumn100",
-                    legendText: "Wasted",
-                    indexLabel: "#percent %",
-                    indexLabelPlacement: "inside",
-                    indexLabelFontColor: "white",
-                    showInLegend: true,
-                    dataPoints: [
-                        { y: 28, x: new Date(2010, 1) },
-                        { y: 18, x: new Date(2010, 2) },
-                        { y: 12, x: new Date(2010, 3) },
-                        { y: 10, x: new Date(2010, 4) },
-                        { y: 10, x: new Date(2010, 5) },
-                        { y: 7, x: new Date(2010, 6) },
-                        { y: 5, x: new Date(2010, 7) },
-                        { y: 4.5, x: new Date(2010, 8) },
-                        { y: 13, x: new Date(2010, 9) },
-                        { y: 29, x: new Date(2010, 10) },
-                        { y: 44, x: new Date(2010, 11) },
-                        { y: 30, x: new Date(2010, 12) }
-                    ]
-                }]
+                //You can add dynamic data from the controller as shown below. Check the controller and uncomment the line which generates dataPoints.
+                
+            }, {
+                type: "stackedColumn",
+                legendText: "Wasted",
+                showInLegend: "true",
+                indexLabel: "#total kg",
+                valueFormatString: "#0kg",
+                indexLabelFormatString: "#0kg",
+                indexLabelPlacement: "outside",
+                dataPoints: [{ "Y": 10.0, "Label": 30 }, { "Y": 10.0, "Label": 29 }, { "Y": 20.0, "Label": 28 }, { "Y": 28.0, "Label": 27 }, { "Y": 9.0, "Label": 26 }, { "Y": 8.0, "Label": 25 }, { "Y": 27.0, "Label": 24 }, { "Y": 10.0, "Label": 23 }, { "Y": 10.0, "Label": 22 }, { "Y": 10.0, "Label": 21 }, { "Y": 10.0, "Label": 20 }]
+
+                //You can add dynamic data from the controller as shown below. Check the controller and uncomment the line which generates dataPoints.
+                
+
+            }
+            ]
         });
         chart.render();
     });

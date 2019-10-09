@@ -10,10 +10,30 @@ namespace ASPNET_MVC_Samples.Controllers
 {
     public class ChartTypesController : Controller
     {
+        public ActionResult Daily()
+        {
+            //Below code can be used to include dynamic data in Chart. Check view page and uncomment the line "dataPoints: @Html.Raw(ViewBag.DataPoints)"
+            var result = DataService.GetChartData("food_utilization_all", 3, DateTime.Now.AddDays(-30), DateTime.Now, ChartType.Daily);
+            ViewBag.DataPoints1 = JsonConvert.SerializeObject(result._dataPoint1.TypeOfWasteData);
+            ViewBag.DataPoints2 = JsonConvert.SerializeObject(result._dataPoint2.TypeOfWasteData);
+
+            return View();
+        }
+
+        public ActionResult Monthly()
+        {
+            //Below code can be used to include dynamic data in Chart. Check view page and uncomment the line "dataPoints: @Html.Raw(ViewBag.DataPoints)"
+            ViewBag.DataPoints = JsonConvert.SerializeObject(DataService.GetRandomDataForCategoryAxis(10), _jsonSetting);
+
+            return View();
+        }
+        
+
         public ActionResult Column()
         {
             //Below code can be used to include dynamic data in Chart. Check view page and uncomment the line "dataPoints: @Html.Raw(ViewBag.DataPoints)"
             ViewBag.DataPoints = JsonConvert.SerializeObject(DataService.GetRandomDataForCategoryAxis(10), _jsonSetting);
+
 
             return View();
         }

@@ -1,0 +1,90 @@
+[  
+    {
+      "waste_percent": 10,
+      "asof_date": "2019-07-30",
+      "wasted": 10,
+      "unused": 9,
+      "acquired": 100,
+      "unused_percent": 9
+    },
+    {
+      "waste_percent": 14.08,
+      "asof_date": "2019-07-29",
+      "wasted": 10,
+      "unused": 5,
+      "acquired": 71,
+      "unused_percent": 7.04
+    },
+    {
+      "waste_percent": 10.31,
+      "asof_date": "2019-07-28",
+      "wasted": 20,
+      "unused": 29,
+      "acquired": 194,
+      "unused_percent": 14.95
+    },
+    {
+      "waste_percent": 21.54,
+      "asof_date": "2019-07-27",
+      "wasted": 28,
+      "unused": 11,
+      "acquired": 130,
+      "unused_percent": 8.46
+    },
+    {
+      "waste_percent": 9.28,
+      "asof_date": "2019-07-26",
+      "wasted": 9,
+      "unused": 5,
+      "acquired": 97,
+      "unused_percent": 5.15
+    },
+    {
+      "waste_percent": 8,
+      "asof_date": "2019-07-25",
+      "wasted": 8,
+      "unused": 12,
+      "acquired": 100,
+      "unused_percent": 12
+    },
+    {
+      "waste_percent": 15.25,
+      "asof_date": "2019-07-24",
+      "wasted": 27,
+      "unused": 23,
+      "acquired": 177,
+      "unused_percent": 12.99
+    },
+    {
+      "waste_percent": 12.5,
+      "asof_date": "2019-07-23",
+      "wasted": 10,
+      "unused": 10,
+      "acquired": 80,
+      "unused_percent": 12.5
+    },
+    {
+      "waste_percent": 12.5,
+      "asof_date": "2019-07-22",
+      "wasted": 10,
+      "unused": 10,
+      "acquired": 80,
+      "unused_percent": 12.5
+    },
+    {
+      "waste_percent": 12.5,
+      "asof_date": "2019-07-21",
+      "wasted": 10,
+      "unused": 10,
+      "acquired": 80,
+      "unused_percent": 12.5
+    },
+    {
+      "waste_percent": 12.5,
+      "asof_date": "2019-07-20",
+      "wasted": 10,
+      "unused": 10,
+      "acquired": 80,
+      "unused_percent": 12.5
+    }
+  ]
