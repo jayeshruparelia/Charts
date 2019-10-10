@@ -125,6 +125,7 @@
     <Content Include="App_Data\DataBase_log.ldf">
       <DependentUpon>DataBase.mdf</DependentUpon>
     </Content>
+    <Content Include="App_Data\FoodnClimate.png" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\font-awesome\css\font-awesome.css" />
     <Content Include="Content\font-awesome\css\font-awesome.min.css" />
@@ -284,6 +285,7 @@
     <Content Include="Views\ChartTypes\MonthlyStackedChart_Percentage.cshtml" />
     <Content Include="Views\ChartTypes\ScatterChart100Year.cshtml" />
     <Content Include="Views\ChartTypes\ComparisionByCity.cshtml" />
+    <Content Include="Views\ChartTypes\Dashboard.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

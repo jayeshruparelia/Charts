@@ -7,6 +7,6 @@ namespace ASPNET_MVC_Samples.Models
 {
     public enum ChartType
     {
-        Daily, Monthly, ComparisionByCity, ComparisionByCountry
+        Daily, Monthly, ComparisionByCity, Dashboard
     }
 }

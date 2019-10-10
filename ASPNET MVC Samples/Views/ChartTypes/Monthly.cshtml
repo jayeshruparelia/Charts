@@ -15,11 +15,11 @@
             },
             axisY: {
                 title: "Food Wasted (in kg)",
-                valueFormatString: "#0.",
             },
             axisX: {
                 interval: 1,
-                intervalType: "month"
+                intervalType: "month",
+                title: "Monthly",
             },
             dataPointWidth: 30,
             data: [
@@ -29,8 +29,7 @@
                 valueFormatString: "#0kg",
                 name: "Unutilized",
                     showInLegend: true,
-                    xValueFormatString: "MMM-YYYY",
-                    yValueFormatString: "#0kg",
+                    xValueFormatString: "MMM YYYY",
                 dataPoints: @Html.Raw(ViewBag.DataPoints1)
 
                 },
@@ -38,8 +37,6 @@
                     type: "stackedColumn",
                     name: "Wasted",
                     showInLegend: true,
-                    xValueFormatString: "MMM-YYYY",
-                    yValueFormatString: "#0kg",
                     indexLabelPlacement: "outside",
                     indexLabel: "#total kg",
                     dataPoints: @Html.Raw(ViewBag.DataPoints2)

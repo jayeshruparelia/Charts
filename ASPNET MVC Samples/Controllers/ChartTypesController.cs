@@ -10,6 +10,17 @@ namespace ASPNET_MVC_Samples.Controllers
 {
     public class ChartTypesController : Controller
     {
+        public ActionResult Dashboard()
+        {
+            //Below code can be used to include dynamic data in Chart. Check view page and uncomment the line "dataPoints: @Html.Raw(ViewBag.DataPoints)"
+            var result = DataService.GetDashboardPieChart();
+            ViewBag.PieDataPoints = JsonConvert.SerializeObject(result);
+
+            var result2 = DataService.GetDashboardTop10CityChart();
+            ViewBag.Top10CityDataPoints = JsonConvert.SerializeObject(result2);
+            return View();
+        }
+
         public ActionResult Daily()
         {
             //Below code can be used to include dynamic data in Chart. Check view page and uncomment the line "dataPoints: @Html.Raw(ViewBag.DataPoints)"

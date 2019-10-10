@@ -13,8 +13,12 @@
             title: {
                 text: "Daily CO2 emission"
             },
-            dataPointWidth: 30,
-         
+            dataPointWidth: 15,
+            axisX: {
+                interval: 2,
+                intervalType: "day",
+                xValueFormatString: "DD-MM",
+            },
             data: [
             {
                 type: "stackedColumn",
